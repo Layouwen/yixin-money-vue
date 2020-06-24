@@ -1,4 +1,4 @@
-# yixin
+# yixin - 易新记账
 
 ## Project setup
 ```
