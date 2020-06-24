@@ -1,8 +1,7 @@
 <template>
-  <div>
-    我是统计
-    <Nav/>
-  </div>
+  <Layout>
+    <p>统计页</p>
+  </Layout>
 </template>
 
 <script lang="ts">

@@ -1,7 +1,8 @@
 <template>
   <div>
-    我是记账
-    <Nav/>
+    <Layout>
+      <p>记账页</p>
+    </Layout>
   </div>
 </template>
 
