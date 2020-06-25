@@ -18,7 +18,6 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    border: 1px solid blue;
     .content {
       flex-grow: 1;
       overflow: auto;
