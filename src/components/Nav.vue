@@ -27,6 +27,7 @@
     flex-direction: row;
     font-size: 12px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+
     > .item {
       display: flex;
       flex-direction: column;
@@ -34,11 +35,13 @@
       align-items: center;
       padding: 2px 0;
       width: 33.333%;
+
       .icon {
         width: 32px;
         height: 32px;
       }
     }
+
     > .item.selected {
       color: blue;
     }
