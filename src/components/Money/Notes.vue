@@ -4,7 +4,7 @@
       {{value}}
       <span class="name">备注</span>
       <input type="text" placeholder="请在这里输入备注"
-             :value="value" @input="onInput">
+             v-model="value">
     </label>
   </div>
 </template>
@@ -16,11 +16,6 @@
   @Component
   export default class Notes extends Vue {
     value = '';
-
-    onInput(event: KeyboardEvent) {
-      const input = event.target as HTMLInputElement;
-      this.value = input.value;
-    }
   }
 </script>
 
