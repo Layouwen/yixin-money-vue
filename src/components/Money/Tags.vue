@@ -1,7 +1,6 @@
 <template>
   <div class="tags">
     <div class="new">
-      {{selectedTags}}
       <button @click="create">新增标签</button>
     </div>
     <ul class="current">
@@ -29,6 +28,7 @@
       } else {
         this.selectedTags.push(tag);
       }
+      this.$emit('update:value', this.selectedTags)
     }
 
     create() {
