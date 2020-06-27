@@ -23,7 +23,7 @@
       if (type !== '-' && type !== '+') {
         throw new Error('type is unknown');
       }
-      this.$emit('update:value', type)
+      this.$emit('update:value', type);
     }
   }
 </script>
