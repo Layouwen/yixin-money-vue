@@ -25,7 +25,7 @@
     notes: string;
     type: string;
     amount: number;
-    createAt?: Data;
+    createAt?: Date;
   }
 
   @Component({
