@@ -49,6 +49,7 @@
     flex-grow: 1;
     padding: 16px;
     font-size: 14px;
+    background: #fff;
 
     > .current {
       display: flex;
@@ -66,7 +67,7 @@
         background: $bg;
 
         &.selected {
-          bakcground: darken($bg, 50%);
+          background: darken($bg, 50%);
           color: #fff;
         }
       }

@@ -1,10 +1,11 @@
 <template>
   <div>
     <Layout class-prefix="layout">
-      {{recordList}}
       <NumberPad :value.sync="record.amount" @submit="saveRecord"/>
       <Types :value.sync="record.type"/>
-      <FormItem field-name="备注" placeholder="请输入备注的内容"  @update:value="onUpdateNotes"/>
+      <div class="notes">
+        <FormItem field-name="备注" placeholder="请输入备注的内容" @update:value="onUpdateNotes"/>
+      </div>
       <Tags :data-source.sync="tags" @update:value="onUpdateTags"/>
     </Layout>
   </div>
@@ -63,5 +64,9 @@
   .layout-content {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .notes {
+    padding: 12px 0;
   }
 </style>
