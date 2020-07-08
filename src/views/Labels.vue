@@ -33,6 +33,7 @@
 
     createTag() {
       const name = window.prompt('请输入内容');
+      if (name === null) {return;}
       if (!name) {return window.alert('标签名不能为空');}
       this.$store.commit('createTag', name);
     }
