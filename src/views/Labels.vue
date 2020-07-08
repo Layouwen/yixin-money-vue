@@ -67,7 +67,7 @@
     color: #fff;
     border: none;
     border-radius: 4px;
-    background: #767676;
+    background: #3f72af;
 
     &-wrapper {
       margin-top: 44px;

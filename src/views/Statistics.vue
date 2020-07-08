@@ -3,7 +3,7 @@
     <Tabs class-pre-fix="type" :data-source="recordTypeList" :value.sync="type"/>
     <ol v-if="groupedList.length>0">
       <li v-for="(group, index) in groupedList" :key="index">
-        <h3 class="title">{{beautify(group.title)}} <span>￥{{group.total}}</span></h3>
+        <h3 class="title">{{beautify(group.title)}} <span>总金额: ￥{{group.total}}</span></h3>
         <ol>
           <li class="record" v-for="item in group.items" :key="item.id">
             <span>{{tagString(item.tags)}}</span>
@@ -94,10 +94,10 @@
 
   ::v-deep {
     .type-tabs-item {
-      background: #c4c4c4;
+      background: #fff;
 
       &.selected {
-        background: #fff;
+        background: #5976de;
 
         &::after {
           display: none;

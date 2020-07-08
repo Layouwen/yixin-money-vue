@@ -42,10 +42,11 @@
         width: 32px;
         height: 32px;
       }
+
     }
 
     > .item.selected {
-      color: $color-heightLight;
+      color: #3f72af;
     }
   }
 </style>

@@ -56,17 +56,16 @@
 
       > li {
         $h: 24px;
-        $bg: #d9d9d9;
         margin-top: 4px;
         padding: 0 16px;
         margin-right: 14px;
         height: $h;
         line-height: $h;
         border-radius: $h/2;
-        background: $bg;
+        background: #d9d9d9;
 
         &.selected {
-          background: darken($bg, 50%);
+          background: #3f72af;
           color: #fff;
         }
       }
@@ -77,7 +76,7 @@
 
       button {
         padding: 0 4px;
-        color: #999;
+        color: #3f72af;
         border: none;
         border-bottom: 1px solid;
         background: transparent;

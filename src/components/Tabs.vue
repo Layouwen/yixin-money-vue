@@ -38,7 +38,9 @@
   .tabs {
     display: flex;
     font-size: 24px;
-    background: #c4c4c4;
+    background: #fff;
+    color: #5976de;
+    border: 1px solid #5976de;
 
     &-item {
       position: relative;
@@ -46,7 +48,12 @@
       justify-content: center;
       align-items: center;
       width: 50%;
-      height: 64px;
+      height: 50px;
+
+      &.selected {
+        color: #fff;
+        background: #5976de;
+      }
 
       &.selected::after {
         content: '';
@@ -55,7 +62,7 @@
         bottom: 0;
         width: 100%;
         height: 4px;
-        background: #333;
+        /*background: #fff;*/
       }
     }
   }
