@@ -52,7 +52,7 @@
 </script>
 
 <style lang="scss" scoped>
-  .layout-content {
+  ::v-deep .layout-content {
     display: flex;
     flex-direction: column-reverse;
   }
