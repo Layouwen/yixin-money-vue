@@ -1,29 +1,35 @@
-# yixin - 易新记账
+# yixin-money - 易新小账本
 
-## Project setup
+## 查看效果
+
+[点击预览](https://layouwen.github.io/YiXin-website)
+
+## 介绍
+
+易新小账本是一款简约风的记账应用。 从设计至完成，借鉴参考了多款 AppStore 中的类似应用。最终使其最简化。 本项目期间遇到很多问题，如 webpack配置 ，TypeScript 等问题。最终都记录在博客中。
+
+## 二次开发
+
+安装依赖
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+本地预览
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+打包
+
 ```
-yarn build
+sh deploy.sh
 ```
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## 联系方式
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+>作者：梁又文  
+>QQ：794234293  
+>微信：gdgzyw
