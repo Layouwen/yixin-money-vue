@@ -1,8 +1,8 @@
-# yixin-money - 易新小账本
+# yixin-money-vue - 易新小账本
 
 ## 查看效果
 
-[点击预览](https://layouwen.github.io/YiXin-website)
+[点击预览](https://layouwen.gitee.io/yixin-money-vue-website)
 
 ## 介绍
 
